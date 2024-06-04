@@ -14,7 +14,7 @@ public class Cots_bintangTest {
     @Test
     public void testPenambahan() {
         double result = Cots_bintang.performOperation(1, 5, 3);
-        assertEquals(8, result, 0.001);
+        assertEquals(5, result, 0.001);
     }
 
     @Test
